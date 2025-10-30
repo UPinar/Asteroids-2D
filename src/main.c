@@ -22,6 +22,8 @@ int main(void)
 {
   InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Asteroid 2D Game");
   HideCursor();
+  ToggleBorderlessWindowed();
+  SetTargetFPS(SCREEN_FPS);
 
   // ------------------------------------------------------
   Texture2D crosshairTexture      =  { 0 };

@@ -1,8 +1,8 @@
 #ifndef     SCREEN_H
 #define     SCREEN_H
 
-#define   SCREEN_WIDTH    1800
-#define   SCREEN_HEIGHT   900
-#define   SCREEN_FPS      144
+#define   SCREEN_WIDTH    1920
+#define   SCREEN_HEIGHT   1080
+#define   SCREEN_FPS      60
 
-#endif // SCREEN_G
+#endif // SCREEN_H
